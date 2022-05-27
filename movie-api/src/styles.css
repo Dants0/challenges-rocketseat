@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --title: #fffcf9;
+    --subtitle: #b3b3b3;
+    --info-button: #fffcf9;
+    --bg-button: #e9e6e3;
+    --bg-button-hover: #e9e6e3cc;
+    --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background: var(--background);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+header{
+  display: flex;
+  justify-content: center;
+  font-size: 21px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+h1{
+  justify-content: center;
+  text-align: center;
+  color: var(--title);
+}
+
+button{
+  display: flex;
+  justify-self: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: var(--bg-button);
+  border-radius: 5px;
+  border: none;
+  width: 22vh;
+  padding: 10px;
+  margin: auto;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button:hover{
+  background-color: var(--bg-button-hover);
+}
+
+a{
+  text-decoration: none;
+}
+
+.box-header{
+  display: flex;
+  flex-direction: column;
+}
+
+.button-random-movie{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  color: var(--info-button);
+  margin: 10px;
+}
+
+.img-button{
+  width: 25px;
+  height: 25px;
+}
+
+.button-info{
+  margin: 20px;
+}
+
+#contentMovie{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#contentView{
+  margin: 10px 10px 10px 10px;
+  color: white;
+}
+
+.img-fluid{
+  width: 45vh;
+  height: 45vh;
+  display: flex;
+  border: 2px solid #102d71;
+  border-radius: 5px;
+  box-shadow: #00ffff00 1px 1px;
+  margin: 25px auto;
+}
+
+.title-fluid{
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.desc-fluid{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.backTop{
+  display: block;
+}
