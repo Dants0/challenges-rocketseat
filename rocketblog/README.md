@@ -1,3 +1,4 @@
 >RocketBlog
+## Desafio Concluído 
 
-![Alt text](/assets/rocketblog.png "Title")
+<img src="./assets/rocketblog.png" alt="Blog Photo"/>
