@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Work+Sans&display=swap');
 
-/* font-family: Spartan, Work Sans 
-
-font-weight: 400, 500, 700 */
-
 :root{
     --body-bg-color: #121214;
     --text-color: #E1E1E6;
@@ -12,4 +8,144 @@ font-weight: 400, 500, 700 */
     --bg-button-color: #8257e5;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    background: url(/assets/read_news.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: 14rem;
+    background-position-y: -10.25px;
+}
+
+section{
+    width: 48.5rem;
+    height: 61rem;
+    background-color: var(--body-bg-color);
+}
+
+header{
+    background-color: var(--body-bg-color);
+}
+
+h1{
+    font-family: "Work Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+    color: var(--title-color);
+}
+
+h2{
+    font-family: Spartan;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+    color: var(--form-color);
+}
+
+p{
+    font-family: "Spartan", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+span{
+    font-family: "Spartan", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+    color: var(--text-color);
+}
+
+input{
+    width: 55rem;
+    height: 3rem;
+    border: none;
+}
+
+input:focus{
+    outline:none;
+}
+
+a{
+    text-decoration: none;
+    width: 12.25rem;
+    color: var(--bg-button-color);
+}
+
+button{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 12.25rem;
+    font-family: "Spartan", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--bg-button-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.imgLogo{
+    width: 25rem;
+    height: 6rem;
+    margin: 1.75rem;
+}
+
+.emailBox{
+    width: 54rem;
+    margin: 2rem;
+}
+
+.boxEmail{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;
+}
+
+.readFirst{
+    margin: 2rem;
+    width: 12.25rem;
+}
+
+.sendLogo{
+    justify-content:center;
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--bg-button-color);
+    padding: 10px;
+    cursor: pointer;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.sendLogo:hover{
+    transition: 0.2s all ease-out;
+    background-color: #6a37e2cc;
+}
+
+.inputSendEmail{
+    padding: 1rem;
+    border-left: 0.25rem solid var(--title-color);
+}
+
+.arrowRight{
+    margin-left: 7px;
+}
