@@ -35,6 +35,14 @@ h2{
     margin: 25px;
 }
 
+h3{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+    color: var(--text);
+}
+
 span{
     font-family: 'Prompt', sans-serif;
     font-size: 16px;
@@ -49,6 +57,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     margin-top: 2rem;
 }
 
@@ -57,24 +66,18 @@ section{
     justify-content: center;
     align-items: center;
     width: 27.5rem;
-    height: 45.5rem;
+    height: 46.5rem;
     border-radius: 50px;
     background-color: #000000;
 }
 
 .wrapper{
     width: 25.5rem;
-    height: 43.25rem;
+    height: 44.25rem;
     border-radius: 50px;
     display: flex;
     flex-direction:column;
     background-color:var(--bg-card);
-}
-
-.contentGitHub{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .nameText{
@@ -99,7 +102,7 @@ section{
 .photoContent{
     display: flex;
     justify-content: flex-end;
-    /* z-index: -1; */
+    z-index: 1;
 }
 
 .contentGitHub{
@@ -107,9 +110,13 @@ section{
     height: 10rem;
     display: flex;
     box-shadow: 0px 0px 5px 2px var(--border-button);
-    border-radius: 50px;
+    background:linear-gradient(180deg, #000000 3.65%, rgba(70, 69, 69, 0.72) 53.65%, rgba(62, 56, 56, 0.42) 100%);
+    flex-direction: column;
     justify-content: center;
+    border-radius: 50px;
     align-items: center;
+    z-index: 2;
+    
 
     font-family: 'Prompt', sans-serif;
     font-size: 16px;
@@ -128,4 +135,24 @@ section{
     width: 1.75rem;
     margin-right: 1.25rem;
     height: 2.1rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.customCard{
+    width: 14.5rem;
+    height: 3.7rem;
+    border-radius: 15px;
+    border: 2px solid #1A1A1A;
+    margin-top: 1rem;
+    background-color: var(--bg);
+    font-family: 'Prompt', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+    color: var(--text);
 }
