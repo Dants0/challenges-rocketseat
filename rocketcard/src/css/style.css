@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 
-/* font-family: Prompt 
-
-Font Weight: 100, 400 e 700 */
-
 :root {
     --bg: #000000;
     --bg-card: #0E1218;
@@ -71,6 +67,8 @@ section{
     height: 46.5rem;
     border-radius: 50px;
     background-color: #000000;
+    position: relative;
+    animation: move 4s infinite 2s;
 }
 
 .wrapper{
@@ -167,4 +165,23 @@ section{
 .box2{
     display: flex;
     margin-top: 20rem;
+}
+
+@keyframes move {
+    0%   {top: 0px;}
+    25%  {top: 150px;}
+    75%  {top: 50px}
+    100% {top: 0px;}
+}
+
+@keyframes back {
+    100%{
+        bottom: 100px;
+    }
+    50%{
+        bottom: 50px;
+    }
+    0%{
+        bottom: 0px;
+    }
 }
