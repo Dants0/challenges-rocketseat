@@ -7,4 +7,4 @@
 - Consumir API do Github;
 - Ter um botão que altere a cor de fundo;
 
-<!-- <img src="./assets/.png" alt="App Photo"/> -->
+<img src="./assets/rocketcard.png" alt="App Photo"/>
