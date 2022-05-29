@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+/* font-family: Prompt 
+
+Font Weight: 100, 400 e 700 */
+
+:root {
+    --bg: #000000;
+    --bg-card: #0E1218;
+    --text: #F1F1F1;
+    --img-profile: #8257e5;
+    --buttons: #FFF;
+    --border-button: #1A1A1A;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-card)
+}
+
+h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+h2{
+    margin: 25px;
+}
+
+span{
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    margin: 0.25rem;
+
+    color: var(--text);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27.5rem;
+    height: 45.5rem;
+    border-radius: 50px;
+    background-color: #000000;
+}
+
+.wrapper{
+    width: 25.5rem;
+    height: 43.25rem;
+    border-radius: 50px;
+    display: flex;
+    flex-direction:column;
+    background-color:var(--bg-card);
+}
+
+.contentGitHub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nameText{
+    display: flex;
+    align-items: center;
+    font-family: 'Prompt',sans-serif;
+    font-size: 24px;
+    font-weight: 400;   
+
+    color: var(--text);
+}
+
+.imgTitle{
+    width: 4rem;
+    height: 4rem;
+    padding: 8px;
+    margin-right: 2rem;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+.photoContent{
+    display: flex;
+    justify-content: flex-end;
+    /* z-index: -1; */
+}
+
+.contentGitHub{
+    width: 12.7rem;
+    height: 10rem;
+    display: flex;
+    box-shadow: 0px 0px 5px 2px var(--border-button);
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1.25rem;
+    color: var(--text);
+}
+
+.footerCard{
+    width: 1.75rem;
+    margin-right: 1.25rem;
+    height: 2.1rem;
+}
