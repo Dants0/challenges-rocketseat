@@ -116,6 +116,7 @@ section{
     border-radius: 50px;
     align-items: center;
     z-index: 2;
+    background-opacity: 0.2s;
     
 
     font-family: 'Prompt', sans-serif;
@@ -159,6 +160,25 @@ section{
 }
 
 .customCard:hover{
+    background-color: #0c0c0c;
+}
+
+.resetCard{
+    width: 14.5rem;
+    height: 3.7rem;
+    border-radius: 15px;
+    border: 2px solid #1A1A1A;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: var(--bg);
+    font-family: 'Prompt', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+    color: var(--text);
+}
+
+.resetCard:hover{
     background-color: #0c0c0c;
 }
 
